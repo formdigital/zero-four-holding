@@ -600,22 +600,13 @@ p + .btn {
     }
 }
 
-/* HERO
----------------------------------------------------------------------------------------- */
-.zero-four-hero {
-    padding: 120px 5%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.zero-four-hero .zero-four-hero-play-button {
+.play-button {
     display: inline-flex;
     align-items: center;
     margin-top: 32px;
 }
 
-.zero-four-hero .zero-four-hero-play-button .icon {
+.play-button .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -627,9 +618,18 @@ p + .btn {
     background-color: #EA5938;
 }
 
-.zero-four-hero .zero-four-hero-play-button .text {
+.play-button .text {
     text-transform: uppercase;
     color: #FFF;
+}
+
+/* HERO
+---------------------------------------------------------------------------------------- */
+.zero-four-hero {
+    padding: 120px 5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* LOCATION
@@ -794,4 +794,17 @@ p + .btn {
     height: 100%;
     padding: 40px;
     border: 1px solid gray;
+}
+
+/* FLY THROUGH
+---------------------------------------------------------------------------------------- */
+.fly-through {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -6,7 +6,7 @@
                 <div class="cell large-8">
                     <h1 class="heading-sm text-uppercase text-red">Zero Four</h1>
                     <h2 class="heading-lg text-uppercase">Mix-use 123 acre development in Montrose</h2>
-                    <button class="zero-four-hero-play-button">
+                    <button class="play-button">
                         <div class="icon">
                             <i class="material-icons">play_arrow</i>
                         </div>
@@ -139,6 +139,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="fly-through" style="background-image: url('img/placeholders/fly-through.jpg');">
+        <button class="play-button">
+            <div class="icon">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <div class="text">Watch fly through</div>
+        </button>
     </div>
 
 <?php include 'footer.php'; ?>
