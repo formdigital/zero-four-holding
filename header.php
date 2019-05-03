@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.5/venobox.min.css"/>
         <link rel="stylesheet" href="css/lightbox.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
@@ -39,18 +39,19 @@
 
             <div class="off-canvas-content" data-off-canvas-content>
             
-                <header class="zero-four-header">
+                <header class="header">
                     <div class="grid-container">
                         <div class="grid-x align-justify align-middle">
-                            <a class="zero-four-header-logo">LOGO</a>
-                            <ul class="zero-four-header-nav">
-                                <li><a href="#">Location</a></li>
-                                <li><a href="#">Site Specifics</a></li>
-                                <li><a href="#">Developer</a></li>
-                                <li><a href="#">Agents</a></li>
-                                <li><a href="#">Site Updates</a></li>
+                            <a class="header-logo" href="./">LOGO</a>
+                            <ul class="header-nav">
+                                <li><a href="#location">Location</a></li>
+                                <li><a href="#specification">Site Specifics</a></li>
+                                <li><a href="#developer">Developer</a></li>
+                                <li><a href="#agents">Agents</a></li>
+                                <li><a href="#news">Site Updates</a></li>
                                 <li><a href="#">Download Brochure</a></li>
                             </ul>
+                            <a class="btn btn-red download-brochure-btn" href="#">Download Brochure</a>
                         </div>
                     </div>
                 </header>

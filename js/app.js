@@ -1,12 +1,24 @@
 $(document).foundation()
 
+// Scroll anchors
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+
+// Page transitions
 $(document).ready(function() {
     $(".animsition").animsition({
         inClass: 'fade-in',
         outClass: 'fade-out',
         inDuration: 1200,
         outDuration: 1200,
-        linkElement: 'a:not([target="_blank"]):not([href^="#"]):not([href^="mailto:"])',
+        linkElement: 'a:not([target="_blank"]):not([class^="venobox"]):not([href^="#"]):not([href^="mailto:"])',
         loading: true,
         loadingParentElement: 'body', //animsition wrapper element
         loadingClass: 'animsition-loading',
@@ -23,35 +35,7 @@ $(document).ready(function() {
     });
 });
 
+// Video modal
 $(document).ready(function(){
-    $('.home-project-carousel').slick({
-        arrows: true,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true
-    });
-});           
-
-$(document).ready(function(){
-    $('.project-gallery').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: true,
-        fade: true,
-        adaptiveHeight: true
-    });
-});     
-
-$(document).ready(function(){
-    $('.testimonial-carousel').slick({
-        arrows: true,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true
-    });
+    $('.venobox').venobox(); 
 });
-
-// $("#registerModal").modal({
-//     fadeDuration: 100
-// });
