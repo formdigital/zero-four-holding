@@ -948,9 +948,19 @@ p + .btn {
 
 @media screen and (min-width: 64em) {
     .site-aerial-info {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    .site-aerial-info {
         padding: 40px;
         border: 1px solid gray;
     }
+}
+
+.site-aerial-info .inner *:last-child {
+    margin-bottom: 0;
 }
 
 /* FLY THROUGH
@@ -1026,8 +1036,14 @@ p + .btn {
 }
 
 .specification-logos li {
-    padding: 40px;
+    padding: 25px;
     opacity: 0.25;
+}
+
+@media screen and (min-width: 40em) {
+    .specification-logos li {
+        padding: 40px;
+    }
 }
 
 /* NEWS
@@ -1172,11 +1188,17 @@ p + .btn {
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0;
+    opacity: 0.5;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: opacity 0.4s ease;
+}
+
+@media screen and (min-width: 64em) {
+    .news-list li a .image {
+        opacity: 0;
+    }
 }
 
 .news-list li a:hover .image {
@@ -1278,6 +1300,10 @@ p + .btn {
         height: 100%;
         margin-bottom: 0;
     }
+}
+
+.developer-text {
+    padding: 15px;
 }
 
 @media screen and (min-width: 64em) {

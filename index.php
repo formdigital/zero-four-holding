@@ -165,7 +165,7 @@
 
     <div class="location py-xl">
         <div class="grid-container">
-            <div class="grid-x grid-margin-x">
+            <div class="grid-x grid-margin-x flex-dir-column-reverse large-flex-dir-row">
                 <div class="cell large-4">
                     <div class="site-aerial-info text-center flex-container align-center align-middle">
                         <div class="inner">
