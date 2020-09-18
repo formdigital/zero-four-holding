@@ -689,6 +689,10 @@ p + .btn {
     background-size: cover;
 }
 
+.hero a {
+	color: #fff;
+}
+
 @media screen and (min-width: 40em) {
     .hero {
         padding: 280px 5% 60px 5%;

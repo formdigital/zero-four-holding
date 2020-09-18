@@ -18,25 +18,6 @@
 
         <div class="animsition off-canvas-wrapper">
 
-            <div class="menu off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
-                <button class="menu-close" aria-label="Close menu" type="button" data-close>
-                    <i class="material-icons text-white">close</i>
-                </button>
-                <div class="menu-nav">
-                    <a href="index.php">Home</a>
-                    <a href="about.php">About</a>
-                    <a href="developments.php">Developments</a>
-                    <a href="homes.php">Homes</a>
-                    <a href="partners.php">Partners</a>
-                    <a href="land.php">Land</a>
-                    <a href="contact.php">Contact</a>
-                    <div class="menu-contact pt-lg">
-                        <h3 class="heading-xs text-gold text-uppercase">Contact Us</h3>
-                        <p><a href="mailto:info@isla-developments.com">info@isla-developments.com</a></p>
-                    </div>
-                </div>
-            </div>
-
             <div class="off-canvas-content" data-off-canvas-content>
             
                 <header class="header">
@@ -44,14 +25,9 @@
                         <div class="grid-x align-justify align-middle">
                             <a class="header-logo" href="./">LOGO</a>
                             <ul class="header-nav">
-                                <li><a href="#location">Location</a></li>
-                                <li><a href="#specification">Site Specifics</a></li>
-                                <li><a href="#developer">Developer</a></li>
-                                <li><a href="#agents">Agents</a></li>
-                                <li><a href="#news">Site Updates</a></li>
-                                <li><a href="#">Download Brochure</a></li>
+                                <li><a href="mailto:enquiries@crownestatescotland.com">Contact Us</a></li>
                             </ul>
-                            <a class="btn btn-red download-brochure-btn" href="#">Download Brochure</a>
+                            <a class="btn btn-red download-brochure-btn" href="mailto:enquiries@crownestatescotland.com">Contact Us</a>
                         </div>
                     </div>
                 </header>
